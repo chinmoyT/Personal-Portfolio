@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.jpg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {AiFillGithub,AiFillPhone} from "react-icons/ai";
 import {GrMail} from 'react-icons/gr'
@@ -14,39 +14,26 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
           <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              About <strong className="purple">Myself</strong>
             </h1>
             <blockquote className="blockquote mb-0">
               <p style={{ textAlign: "justify" }}>
-              Hello Everyone! My name is <span className="purple">Het Parekh.</span> I am
-              from <span className="purple"> Mumbai, India.</span>
-              <br />I am a  pursuing Engineering in<span className="purple"> CS / IT</span> from 
-              <span className="purple"> Mumbai University.</span>
+              Hey Everyone! My name is <span className="purple">Chinmoy Thakuria.</span> I am
+              from <span className="purple"> Assam, India.</span>
+              <br />I am pursuing Engineering in<span className="purple"> Computer Science</span> from 
+              <span className="purple"> Vellore Institute of Technology, Amravati</span>
               <br />
               <br />
-              Apart from coding, some other activities that I love to do!
+              Some of my hobbies are: 
             </p>
             <ul>
               <li className="about-activity">
-                <ImPointRight /> Trekking
+                <ImPointRight /> Video Editing
               </li>
               <li className="about-activity">
-                <ImPointRight /> Reading Tech Blogs or Articles
-              </li>
-              <li className="about-activity">
-                <ImPointRight /> Playing Games
+                <ImPointRight /> Watching movies
               </li>
             </ul>
-
-            <div class="quote">
-              <blockquote>
-                <p style={{ color: "#ff4da6",marginLeft:25  }}>
-                  Hard work beats talent when talent doesn't work hard enough!{" "}
-                </p>
-              </blockquote> 
-              <span style={{color:"#f5f5f5"}}>- My Motto</span>
-        
-            </div>
             </blockquote>
           </Col>
           <Col md={4} className="myAvtar">
@@ -64,7 +51,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/het-parekh"
+                  href="https://github.com/chinmoy12345678"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,7 +61,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/het-parekh-87839a1b0/"
+                  href="https://www.linkedin.com/in/chinmoy-thakuria/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -84,7 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:hetparekh26@gmail.com"
+                  href="mailto:chinmoythakuria20@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -94,7 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="tel:+919820260178"
+                  href="tel:+916000435728"
                   style={{ color: "#222" }}
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

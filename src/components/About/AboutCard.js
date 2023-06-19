@@ -6,21 +6,17 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <p className="home-about-body">
-              I fell in love with programming from the first program.
+              I started coding in class 12 when I created my first java program.
               <br />
               <br />I am well acquainted with programming languages such as
               <i>
-                <b className="purple"> Python, Javascript and Java. </b>
+                <b className="purple"> Javascript and Java. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  development using python and python frameworks.
-                </b>
+                <b className="purple">Web Technologies and Products </b> 
               </i>
               <br />
               <br />

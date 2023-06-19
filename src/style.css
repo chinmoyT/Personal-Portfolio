@@ -279,7 +279,7 @@ html,body{
 
 .home-header {
   padding-top: 20px !important;
-  border:3px solid #998200 ;
+  border:3px solid #ff4da6 ;
   width:600px!important;
   height:360px!important;
 }
@@ -313,13 +313,13 @@ html,body{
 }
 
 .main-name {
-  color: #ffffb3 !important  ;
+  color: #ff4da6 !important  ;
   text-shadow:none !important;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #ffffb3 !important;
+  color: #ff4da6 !important;
   font-weight: 600 !important;
   text-shadow:none !important;
 }
