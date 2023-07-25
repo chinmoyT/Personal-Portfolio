@@ -18,16 +18,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-        <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Portfolio Website"
-              description="This is my portfolio website providing professional information about me and about my work. Infact you are browsing it right now!"          
-              link="https://github.com/het-parekh/Porfolio-Website"
-            />
-          </Col>
-
+        
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={crypto}
